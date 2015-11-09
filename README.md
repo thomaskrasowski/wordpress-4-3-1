@@ -1,5 +1,5 @@
 Wordpress Staging
-for Ubuntu
+for Ubuntu Linux
 
 sudo su
 apt-get update
