@@ -39,4 +39,4 @@ service apache2 restart
 ------------------------------------------------
 After Wordpress Is Configured add a line into /var/www/staging/wp-config.php
 
-define('WP_REDIS_HOST', '');
+define('WP_REDIS_HOST', 'ADDRES OF YOUR RDS');
