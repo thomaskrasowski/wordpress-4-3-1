@@ -1,5 +1,5 @@
 Wordpress Staging
-for Ubuntu Linux
+Config for Ubuntu Linux on Amazon AWS platform
 
 sudo su
 apt-get update
@@ -35,3 +35,8 @@ chmod -R 744 .
 chown -R www-data:www-data .
 
 service apache2 restart
+
+------------------------------------------------
+After Wordpress Is Configured add a line into /var/www/staging/wp-config.php
+
+define('WP_REDIS_HOST', '');
